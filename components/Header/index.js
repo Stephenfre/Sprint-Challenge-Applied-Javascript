@@ -27,9 +27,9 @@ function Header(headerInfo) {
 
   // **** APPLY THE STYLES //
   headerContent.classList.add("header");
-  headerDate.classList.add("header-date");
-  headerTitle.classList.add("header-title");
-  headerTemp.classList.add("header-temp");
+  headerDate.classList.add("date");
+  // headerTitle.classList.add("header-title");
+  headerTemp.classList.add("temp");
 
   return headerContent;
 }
