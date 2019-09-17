@@ -61,7 +61,7 @@ function cardContent(articleInfo) {
   authorName.textContent = articleInfo.authorName;
   cardImg.src = articleInfo.authorPhoto;
 
-  // **** APPLY THE STYLES //
+  // **** APPLY THE STYLES **** //
   card.classList.add("card");
   cardHeadLine.classList.add("headline");
   cardAuthor.classList.add("author");
